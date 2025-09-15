@@ -36,16 +36,5 @@ IntelliJ IDEA
 4. Ejecutar comando para generar evidencias:
    - mvn serenity:aggregate
 
-📂 Estructura del Proyecto
-El proyecto sigue una estructura típica de Serenity BDD con Maven:
-
-- src/test/java/runner: Contiene la clase java con la que se ejecutara la prueba.
-- src/test/resources/feature: Aquí se encuentran los archivos .feature de Gherkin que describen los escenarios de prueba.
-- stepDefinition: Las clases que implementan los pasos de Gherkin (@Given, @When, @Then).
-- serenity: El código del modelo de objetos de página (PageObjects) o el modelo de pantalla (Screenplay), según tu implementación.
-- src/test/resources/data: El directorio donde se almacenan los archivos .xlsx con los datos de prueba.
-- serenity.properties: Archivo de configuración para Serenity BDD.
-- pom.xml: El archivo de configuración de Maven.
-
 🧐 Pendientes por implementar
-- Manejo de columnas vacias
+- Manejo de navegador edge o ie, actualmente funciona con chrome o firefox
